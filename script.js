@@ -54,8 +54,8 @@ function createEtch(blocks) {
     }
 }
 
-createEtch(64);
-let curr=64;
+createEtch(32);
+let curr=32;
 let bool=false;
 
 const rainbow=document.querySelector(".temp");
