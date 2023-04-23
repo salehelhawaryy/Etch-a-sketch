@@ -1,0 +1,55 @@
+body {
+    background-image: url(images/Textured\ Light\ Green\ Plastic\ Close\ Up\ \ \ Free\ High\ Resolution\ Photo.jpg);
+    background-size: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+.etch {
+    width: 900px;
+    height: 890px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap:0%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 15px;
+    
+   
+}
+
+.etch > p {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: beige;
+}
+
+.sketch {
+    width: 750px;
+    height: 750px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding:1px; */
+    border:5px solid black;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 107px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin-left: 30px;
+    margin-top: 7px;
+    font-size: x-large;
+}
